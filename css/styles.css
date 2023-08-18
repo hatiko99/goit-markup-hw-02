@@ -64,7 +64,8 @@ body {
   color: var(--slate, #434455);
 }
 
-.contacts-link {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
