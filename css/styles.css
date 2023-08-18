@@ -64,6 +64,10 @@ body {
   color: var(--slate, #434455);
 }
 
+.contacts-link {
+  color: #404bbf;
+}
+
 /* Main */
 .subtitle {
   text-align: center;
