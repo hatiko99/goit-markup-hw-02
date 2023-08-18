@@ -22,10 +22,10 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris, #4d5ae5);
 }
 
 .logo-text {
@@ -35,7 +35,7 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris, #4d5ae5);
+  color: var(--navyblue, #2e2f42);
 }
 
 .menu-link {
@@ -48,7 +48,11 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #9747ff;
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .contacts-link {
@@ -88,10 +92,7 @@ body {
 }
 
 .button {
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
   color: var(--white, #fff);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -99,6 +100,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 /* Features */
@@ -123,6 +129,10 @@ body {
 
 .team-section {
   background: var(--cloud, #f4f4fd);
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-list-title {
@@ -175,5 +185,5 @@ body {
 }
 
 .footer-text-color {
-  color: var(--cloud, #F4F4FD);
+  color: var(--cloud, #f4f4fd);
 }
